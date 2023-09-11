@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flow-root;
+   
+   }
+
+/* <!-- <homesetion> --> */
+.homesetion{
+    height: 100vh;
+    background-image: url(/image/slider-02.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flow-root;
+    text-align: center;
+}
+.containersection{
+    
+    background-color: rgba(0,0, 0,0.8);
+    height: 100vh;
+    display: flow-root;
+  
+}
+.homecontent{
+    width: 50%;
+    margin: auto;
+   margin-top:180px;
+   padding: 18px 18px;
+}
+.homecontent h3{
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+.homecontent h1{
+    margin: 20px 0px;
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.homecontent h4{
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+.navbarsection{
+  width: 100%;
+  
+}
+.navheader{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+display: flow-root;
+position: fixed;
+top: 0px;
+}
+ .rightnav{
+    width:50%;
+    float: right;
+    text-align: center;
+   
+}
+.navbarsection li{
+    list-style: none;
+    padding: 15px;
+    float: left;
+}
+.navbarsection a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home a{
+    color: #ff305b;
+   
+    
+}
+.leftnav{
+    width: 100px;
+    float: left;
+    
+   }
+   .navbarsection .leftnav a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff305b;
+  float: left;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 17px 0;
+    margin-left: 119px;
+    text-decoration:crimson;
+}
+   
+  
+   /* <!-- </homesetion> --> */
+
+   /* <!-- <aboutsection> --> */
+   .aboutsection{
+    width: 100%;
+    padding: 151px 0px;
+    height:700px;
+   }
+  
+.imgabout{
+    width: 30%;
+    float: left;
+    position: relative;
+    margin-left: 141px;
+}
+.imgsction  img{
+    width: 100%;
+    height: 320px;
+border-radius: 7px;
+
+}
+.imgsction{
+    position: absolute;
+  top:20px ;
+left: 30px;
+right: 80px;
+z-index: 8888888888888;
+}
+.imgrelativ{
+    width: 100%;
+    height: 100%;
+    position: relative;
+overflow: hidden;
+}
+.hoverimg{
+     background-color : rgba(85, 85, 85,0.4);
+ width: 100%;
+    height: 100%;
+    border-radius: 8px;
+   position: absolute;
+ top: 0px;
+ bottom: 0px;
+ text-align: center;
+ opacity: 0;
+ transition: 0.5s all;
+ transform: translatey(100% );
+}
+.faone{
+    margin-top: 150px;
+    font-size:16px;
+    color: white;
+    padding: 5px;
+}
+.imgrelativ:hover .hoverimg {
+opacity: 1;
+transform: translatey(0 );
+}
+.bordersection{ 
+ border: 8px solid #555555;
+ width: 70%;
+    height: 310px;
+    border-radius: 8px;
+   position: absolute;
+   left:1px ;
+top: 1px;
+}
+.pargabout{
+padding: 10px;
+width: 50%;
+float: right;
+
+}
+.pargabout h2{
+    font-size: 30px;
+    left: 16px;
+position: relative;
+
+}
+.pargabout h2::before{
+    content: "";
+    background: #ff305b none repeat scroll 0 0;
+    height: 65%;
+    left: -10px;
+    position: absolute;
+    top: 5px;
+    width: 4px;
+    
+}
+.pargabout p{
+    border-bottom: 2px dotted  #555555;
+    padding: 10px 0px 30px ;
+}
+ .aboutdata {
+display: flow-root;
+width: 100%;
+ }
+ .aboutdata .dataright{
+width: 50%;
+float: left;
+padding: 10px ;
+
+ }
+ .aboutdata .dataleft{
+width: 50%;
+float: right;
+padding: 10px ;
+
+ }
+ .abtn{
+    width: 54%;
+    margin: auto;
+    padding: 10px 0px;
+    text-align: center;
+    display: flow-root;
+    margin-left: 19px;
+ }
+ .abtn a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+ }
+ .aboutdata li{
+    padding: 10px;
+    list-style: none;
+ }
+.abtn .abtnleft{
+background-color: #ff305b;
+padding: 12px 0px;
+width: 153px;
+height: 42px;
+float: left;
+border-radius: 9px;
+}
+.abtn .abtnright{
+        background-color: #ff305b;
+        padding: 12px 0px;
+        width: 153px;
+        height: 42px;
+            float: right;
+            border-radius: 9px;
+        }
+        .abtnleft:hover{
+            background-color: red;
+        }
+        .abtnright:hover{
+            background-color: red;
+        }
+.down{
+font-size: 20px;
+margin-left: 10px;
+
+}
+.teleg{
+    font-size: 20px;
+margin-left: 10px;
+}
+
+   /* <!-- </aboutsection> --> */
+
+   /* <!-- <Servises> --> */
+
+   .Servisessction{
+    width: 100%;
+    padding: 67px 0px;
+    margin-top: 140px;
+background-color: #eee;
+    ;
+   }
+   .titleset{
+    text-align: center;
+   }
+.titleset h2{
+    padding: 2px 0px;
+
+}
+
+.line{
+    width: 20%;
+    background-color: #ff305b;
+    height: 2px;
+    position: relative;
+margin: 10px auto;
+
+}
+.line::before{
+    content:"";
+    width: 50%;
+    background-color: #ff305b;
+    height: 2px;
+    position: absolute;
+   margin: 10px auto;
+left: 60px;
+bottom: -3px;
+}
+.line::after{
+    content:"";
+    width: 50%;
+    background-color: #ff305b;
+    height: 2px;
+    position: absolute;
+   margin: 10px auto;
+left: 60px;
+top: -3px;
+}
+.contentsetion{
+    width:100%;
+    display: flow-root;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+
+}
+.section{
+    width:25%;
+    float: left;
+    padding: 30px;
+
+}
+.section .inner{
+    width: 100%;
+    padding: 30px;
+    position: relative;
+}
+.section p{
+    margin-top: 10px;
+}
+
+.section .icons{
+    font-size: 35px;
+    padding: 30px 0px;
+    color: #ff305b;
+}
+
+.section .two{
+    margin-bottom: 40px;
+}
+.inner:hover{
+    background-color: #f5f5f5;
+}
+.section:hover .icons{
+    font-size: 60px;
+}
+
+   /* <!-- </Servises> --> */
+
+   /* <!-- <portofolio> --> */
+
+   .portofoliosetion{
+    width: 100%;
+    margin-top: 100px;
+   }
+   .pargsetion{
+    text-align: center;
+   }
+.pargsetion h2{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.pargsetion .line{
+    margin-bottom:50px ;
+}
+.portfolilink a{
+    padding-left:25px ;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.portfolisetion{
+    width: 100%;
+    padding: 20px;
+    display: flow-root;
+}
+.portfolisetion .imgporto{
+    width: 33.333%;
+float: left;
+padding: 10px;
+}
+.portfolisetion .imgporto .inner{
+    padding: 50px;
+}
+.imgportfolio img{
+    width: 100%;
+
+}
+.imgportfolio{
+    width: 100%;
+    height: 100%;
+    position: relative;
+overflow: hidden;
+}
+.backgroundimg{
+    background-color : rgba(85, 85, 85,0.6);
+    width: 100%;
+       height: 100%;
+       border-radius: 8px;
+      position: absolute;
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s all;
+   
+}
+.imgportfolio:hover .backgroundimg{
+    opacity: 1;
+  
+    
+}
+   /* <!-- </portfolio> --> */
+
+   /* <!-- <Testmonial> */
+
+
+.Testmonialsetion{
+    width: 100%;
+    padding-bottom: 200px;
+    text-align: center;
+    background-color: #eee;
+    margin-top: 50px;
+   
+}
+.testsetion{
+    width:22.5% ;
+    height: 100px;
+    float: left;
+    margin: 50px 0px;
+    padding-bottom: 100px ;
+}
+.testsetion .first{
+    font-size: 40px;
+    color:#ff305b;
+    padding: 30px 0px;
+    
+}
+.testsetion h3{
+    font-size: 26px;
+    color: #121111;
+    padding: 10px 0;
+}
+.testsetion h5{
+    font-size: 20px;
+    padding: 30px 0px;
+    margin-bottom: 100px;
+}
+
+/* </Testmonial> */
+
+/* <fedbacksetion> */
+
+
+.fedbacksetion{
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px ;
+}
+.titlefeedback{
+    text-align: center;
+}
+.titlefeedback h2{
+    padding: 30px 0px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.titlefeedback .line{
+    width: 20%;
+    background-color: #ff305b;
+    height: 2px;
+    position: relative;
+    margin: 50px auto;
+}
+
+.pargfeedback{
+    width: 72%;
+    padding: 193px;
+    background-image: linear-gradient( 135deg ,#ff305b 15%,#F1F1F1 15% );
+    margin: auto;
+    position: relative;
+}
+.allparg{
+    width: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1px;
+}
+
+.pargright{
+  width: 100%;
+position: relative;
+float: left;
+}
+
+.pargright h3{
+    font-size: 35px;
+    margin: 30px 0px;
+    float: left;
+    
+}
+
+  .location {
+    position: absolute;
+    bottom: 139px;
+    margin: 9px 0px;
+    
+  }
+  .location a{
+    text-decoration: none;
+    color: #121111;
+    font-size: 20px;
+  }
+.pargright p{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.pargright .stars{
+    position: absolute;
+    bottom: -53px;
+    left: 21px;
+    color: rgb(206, 206, 77);
+}
+.imgleft{
+    width: 20%;
+    height: 161px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 50px;
+    border-radius: 50%;
+    left: 78px;
+
+}
+.imgleft img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* <fedbacksetion> */
+
+/* <!-- <blogsetion> --> */
+
+
+.blogsection{
+    width: 100%;
+
+}
+.titleblog{
+    text-align: center;
+}
+.titleblog h2{
+font-size: 35px;
+margin: 20px ;
+
+}
+.pargblog {
+    width: 100%;
+    display: flow-root;
+    margin-top: 50px ;
+}
+.pargblog .pragg{
+    width: 30%;
+    background-color: rgb(236, 228, 228);
+    padding: 20px;
+   float: left;
+}
+.pragg iframe {
+    width: 100%;
+
+}
+.pragg .date{
+    color: #121111;
+ font-size: 20px;
+    padding: 10px ;
+}
+.pragg h3{
+    color: #121111;
+    padding: 10px ;
+    font-size: 20px;
+}
+.pragg h3 a{
+    color: #121111;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.pragg p{
+    color: #121111;
+    padding: 10px ;
+    font-size: 20px;
+}
+
+.pragg .link a{
+    color: #121111;
+    padding: 10px ; 
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+
+.link:hover a{
+    color: #ff305b;
+}
+.pragg:hover h3{
+    color: #ff305b;
+}
+
+/* <!-- </blogsetion> --> */
+/* <contactsetion> */
+
+.contactsetion{
+    width: 100%;
+}
+.titltlecontact{
+    text-align: center;
+margin: 50px 0px;
+}
+.titltlecontact h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contentcontact{
+    width: 60%;
+    text-align: center;
+   display: flow-root;
+   margin: auto;
+}
+
+.inputna{
+    width: 100%;
+float: left;
+margin: 0PX 0PX 20px;
+}
+.inputna input{
+    width: 45%;
+    float: left;
+    height: 40px;
+    margin-left: 16px;
+    border-radius: 5px;
+    border: rgb(201, 192, 192) 1px solid;
+}
+.subject{
+    width: 100%;
+    float: left;
+    height: 40px;
+    margin: 0PX 13PX 35px;
+    border-radius: 5px;
+    border: rgb(201, 192, 192) 1px solid;
+}
+
+textarea{
+    width: 731px;
+    height: 97px;
+    resize: both;
+    float: left;
+    margin-left: 10px;
+    border-radius: 9px;
+    border: rgb(201, 192, 192) 1px solid;
+    overflow: auto;
+}
+
+.submit input{
+    width: 150px;
+    float: left;
+    height: 45px;
+    margin: 20PX 0PX 20px 40px;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background-color: #ff305b;
+}
+.submit:hover input  {
+    background-color: red;
+}
+/* </contactsetion> */
+
+/* <footer> */
+.footsection{
+    width: 100%;
+    height: 25vh;
+    background-color: #333333;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.icons .icon{
+    margin: 20px 10px;
+    color: white;
+font-size: 25px;
+margin-top: 50px;
+}
+.pargfoot{
+    margin-top: 30px;
+}
+.pargfoot span{
+    color: white;
+    font-size: 25px;
+    
+}
+
+.pargfoot span a{
+    color: red;
+    font-size: 25px;
+}
+/* <footer/> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
